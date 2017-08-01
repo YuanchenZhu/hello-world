@@ -1,0 +1,119 @@
+sudo apt install rar	// suggest from system; unrar
+
+
+Navigating and Working with Files 
+mkdir			//make directory (folder)
+rmdir			//remove dir
+touch 			//how to create a file
+cp			//copy a file
+rm			//remove file or dir
+mv			//copy, rename and delete the original.
+
+
+
+How to count the number of files exlcuding the subdirectories (i.e. excluding folders)?
+ls -F |grep -v / | wc -l
+
+grep -v 		//invert matching
+__________________________________________________________________________________________
+
+find . -name ...	//在当前目录下寻找...文件
+
+__________________________________________________________________________________________
+ Searching and Comparing Files
+
+grep			//look for specific words in document
+diff			//difference between two files
+passwd			//change password
+
+NAME = Bucky
+echo			//display
+echo $NAME		// $ tells linux this is a variable
+__________________________________________________________________________________________
+
+Saving result to a file
+>			//save result to 
+>>			// Not overwrite but append only
+
+__________________________________________________________________________________________
+File permission
+owner/ group /everyone else
+
+u - user
+g - group
+o - other people 
+
+chmod 754  Bacon	//change permission access
+4- stands for "read"
+2- stands for "write"
+1- stands for execute
+0- stands for "no permissionsinfo"
+_________________________________________________________________________________________
+
+
+SSH
+
+
+_________________________________________________________________________________________
+Compress and extract
+
+gzip			//Wherenever there is a space
+gunzip			// .gz compressed 
+tar cvf			// create - display - file option
+xvf			// extract
+
+
+
+_________________________________________________________________________________________
+Install software with APT apt-get
+sudo 			//super user do
+ 
+bash .sh		//run this shell script
+
+
+_________________________________________________________________________________________
+/var/cache/apt/archives to execute sudo apt-get clean
+
+sudo apt-get remove <application_name> // to uninstall
+
+_________________________________________________________________________________________
+1
+sudo rmmod psmouse    这个是禁用的
+2
+sudo modprobe psmouse 这个是启用的
+这个方法很便捷，但是会将触点和触板都禁用了，一般还是希望保持触点是启用的。
+ 
+ ________________________________________________________________________________________
+ keep on learnig Linux 
+
+_________________________________________________________________________________________
+Compress and Extract tar and gz Files
+gzip
+gunzip
+tar cvf 	# create and verify and file
+xvf			# extract
+
+_________________________________________________________________________________________
+Install software with APT(advanced package tool)  
+
+Desktop Program
+
+_________________________________________________________________________________________
+permission
+chmod +rx 
+
+__________________________________________
+More shell script
+__________________________________________
+useradd
+userdel
+
+cd ../.. 	#main core directory
+
+password:
+yuan:x:1000:1000:yuan,,,:/home/yuan:/bin/bash
+
+x:
+password is encrpted
+
+shadow
