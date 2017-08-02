@@ -1,6 +1,6 @@
 Yuan
 mage
-
+test
 ___________________________________
 Spec
 two inputs : an integer as the number of line, a string as the text you are abbout to enter
