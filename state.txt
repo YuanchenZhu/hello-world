@@ -1,0 +1,8 @@
+Yuan
+mage
+
+___________________________________
+Spec
+two inputs : an integer as the number of line, a string as the text you are abbout to enter
+an output: the nearby portion of the txt file.
+___________________________________

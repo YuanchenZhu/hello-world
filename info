@@ -78,7 +78,7 @@ sudo apt-get remove <application_name> // to uninstall
 
 _________________________________________________________________________________________
 1
-sudo rmmod psmouse    这个是禁用的
+sudo rmmod psmouse    这个是禁用的	
 2
 sudo modprobe psmouse 这个是启用的
 这个方法很便捷，但是会将触点和触板都禁用了，一般还是希望保持触点是启用的。
@@ -117,3 +117,12 @@ x:
 password is encrpted
 
 shadow
+___________________________________________
+
+
+always source target
+e.g. for cmd
+move source target_address
+__________________________________________
+查询网络服务和端口
+
